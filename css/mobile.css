@@ -1,0 +1,202 @@
+@media (max-width: 768px){
+
+  h1.title-home{
+    padding: 0 0 0 50px;
+    font-size: 28px;
+  }
+
+  .hero-slides,
+  [data-sliderrazdel].hero-slides-r {
+    height: 350px !important;
+  }
+
+  .hero-slides.owl-carousel .owl-stage-outer,
+  [data-sliderrazdel].hero-slides-r .owl-stage-outer,
+  [data-sliderrazdel].hero-slides-r .single-hero-slide{
+    height: 350px;
+  }
+
+  .home-slider.single-hero-slide{
+    height: 500px;
+  }
+
+  .single-hero-slide .hero-slides-content{
+    padding: 30px 30px 30px 40px;
+  }
+
+  .single-hero-slide .hero-slides-content h1{
+    font-size: 28px !important;
+  }
+
+  .single-hero-slide .hero-slides-content h2{
+    font-size: 24px;
+  }
+
+  .nomerkSlide{
+    height: 565px !important;
+  }
+
+  .spezSlide{
+    height: auto !important;
+  }
+
+  .spezSlide.owl-carousel .owl-stage-outer{
+    height: 320px;
+  }
+
+  .spezSlide .spez-content{
+    padding: 0 5px 0 5px;
+  }
+
+  .spezSlide .mb-15{
+    margin: 0 0 0 0 !important;
+  }
+
+  .spezSlide.owl-carousel .owl-item img{
+    height: 257px;
+    margin: auto;
+  }
+
+  [data-nomera-slider] .baground-slid-n p,
+  [data-conferences-main] .baground-slid-n p{
+    display: none;
+  }
+
+  [data-nomera-slider] .btn.button-nomer.mt-15,
+  [data-conferences-main] .btn.button-nomer.mt-15{
+    display: none;
+  }
+
+  [data-nomera-slider].nomeraSlide,
+  [data-nomera-slider].nomeraSlide .single-hero-slide{
+    height: 280px !important;
+  }
+
+  [data-abouthotel] [data-about-gallery]{
+    display: none;
+  }
+
+  [data-conferences-main]{
+    height: 280px !important;
+  }
+
+  [data-conferences-main].nomerkSlide .single-hero-slide{
+    height: 280px;
+  }
+
+  [data-services] .spezSlide .owl-prev,
+  [data-services] .spezSlide .owl-next,
+  [data-news] .newsSlide .owl-prev,
+  [data-news] .newsSlide .owl-next{
+    color: lightgray;
+  }
+
+  [data-services] .spezSlide.owl-carousel .owl-item img{
+    height: 213px;
+    margin: auto;
+  }
+
+  [data-services] .spezSlide.owl-carousel .owl-item img.b-loaded,
+  [data-news] .newsSlide.owl-carousel .owl-item img.b-loaded,
+  [data-specialoffer] .spezSlide.owl-carousel .owl-item img.b-loaded{
+    width: auto;
+    margin: auto;
+  }
+
+  [data-services] .spezSlide.owl-carousel .owl-stage-outer{
+    height: 265px;
+  }
+
+
+
+  [data-news] .newsSlide img{
+    height: 237px;
+  }
+
+  .col-12,
+  [data-spec-offer-wrapper],
+  [data-text-block-wrapper],
+  [data-content-page] .container.mt-30,
+  [data-content-page] .container .col-12,
+  [data-room-slider] [data-room-extras].col-12,
+  .spoiler_wrap.container{
+    padding-left: 25px;
+    padding-right: 20px;
+  }
+
+  [data-spec-offer-wrapper] .col-12,
+  [data-text-block-wrapper] .col-12,
+  [data-content-page] .col-12,
+  [data-room-slider] .col-12,
+  [data-rooms-slider].col-12,
+  [data-conferences-main] .col-12,
+  [data-nomera-slider] .col-12
+  {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .content-nomer.mt-15.ml-15{
+    margin-left: 0 !important;
+  }
+
+  .content-nomer.mt-15.ml-15 > p{
+    margin-left: 15px;
+  }
+
+  p,
+  .content-nomer p,
+  .phone-nomer,
+  .phone-nomer-tex,
+  .content-nomer a,
+  .spolier_item-name,
+  [data-content-page] .text-cont,
+  [data-content-page] .zvonoc,
+  [data-content-page] .forminput,
+  [data-content-page] textarea,
+  .modal form .forminput,
+  .modal form textarea {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .content-nomer.mt-50{
+    margin-top: 20px !important;
+  }
+
+  [data-event-slider].col-12{
+    padding: 0 0 0 0;
+  }
+
+  .tl-widgets-container,
+  body > div:last-of-type{
+    display: none !important;
+  }
+
+  [data-hide-main-slider]{
+    height: 115px !important;
+  }
+
+  [data-hide-main-slider] > *{
+    display: none;
+  }
+
+  [data-nomera-slider] .button-nomer-p,
+  [data-conferences-main] .button-nomer-p{
+    padding: 8px 20px 8px 20px;
+    font-size: 12px;
+  }
+
+  [data-nomera-slider] .baground-slid-n,
+  [data-conferences-main] .baground-slid-n{
+    width: 210px;
+    height: 110px;
+    padding: 10px 10px 10px 10px;
+  }
+
+  [data-nomera-slider] .single-hero-slide .hero-slides-content h2,
+  [data-conferences-main] .single-hero-slide .hero-slides-content h2{
+    font-size: 19px;
+  }
+
+}
